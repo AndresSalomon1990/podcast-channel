@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    
+    header {
+
+        .menu-wrap {
+
+            .logo-img {
+                margin-left: 80px;
+            }
+
+            .menu-icon {
+                display: none; // hide menu bars icon
+            }
+
+            nav {
+                position: relative;
+                top: -20px;
+                background-color: transparent;
+
+                ul {
+                    max-height: 70px;
+                    padding: 15px 0;
+                    margin-right: 80px;
+                    text-align: right;
+
+                    li {
+                        display: inline-flex;
+                        padding-left: 20px;
+
+                        a {
+                            color: $main-letter-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
