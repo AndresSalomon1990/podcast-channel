@@ -1,38 +1,63 @@
 @media screen and (min-width: 768px) {
+
+    .menu-wrap {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 15px;
+
+        a {
+            width: 2.30em;
+            height: 2.30em;
     
-    header {
-
-        .menu-wrap {
-
             .logo-img {
-                margin-left: 80px;
+                width: 100%;
             }
+        }
 
-            .menu-icon {
-                display: none; // hide menu bars icon
-            }
+        .menu-icon {
+            display: none;
+        }
 
-            nav {
-                position: relative;
-                top: -20px;
-                background-color: transparent;
+        nav {
+            position: relative;
+            top: 10px;
+            max-height: 50px;
+            background-color: transparent;
+            display: flex;
+            justify-content: flex-end;
 
-                ul {
-                    max-height: 70px;
-                    padding: 15px 0;
-                    margin-right: 80px;
-                    text-align: right;
+            ul {
+                display: inline-flex;
+                
+                li {
 
-                    li {
-                        display: inline-flex;
-                        padding-left: 20px;
-
-                        a {
-                            color: $main-letter-color;
-                        }
+                    a {
+                        color: $main-letter-color;
+                        padding-left: 30px;
                     }
                 }
             }
+        }
+    }
+
+    header {
+        margin-left: 200px;
+        padding-top: 100px;
+
+        h1 {
+            max-width: 100%;
+            font-size: 4em;
+        }
+
+        p {
+            max-width: 628px;
+            height: 48px;
+            font-size: 1em;
+        }
+
+        button {
+            width: 226px;
+            height: 56px;
         }
     }
 }

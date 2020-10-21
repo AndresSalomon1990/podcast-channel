@@ -1,0 +1,40 @@
+main {
+
+    section {
+        height: 1200px;
+        overflow: hidden;
+
+        .podcast-container {
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            background-repeat: repeat;
+            background-size: cover;
+            height: 100%;
+
+            // Skew the background
+            -ms-transform: skewY(-5deg);
+            -webkit-transform: skewY(-5deg);
+            -o-transform: skewY(-5deg);
+            -moz-transform: skewY(-5deg);
+            transform: skewY(-5deg);
+    
+            h2 {
+                font-family: "IBM Plex Sans", sans-serif;
+                font-weight: 400;
+                font-size: 2.25em;
+                color: $white-color;
+                letter-spacing: 0;
+                line-height: 2.625em;
+                margin-top: 15px;
+                margin-left: 15px;
+
+                // Unskew the text
+                -ms-transform: skewY(5deg); 
+                -webkit-transform: skewY(5deg);
+                -o-transform: skewY(5deg);
+                -moz-transform: skewY(5deg);
+                transform: skewY(5deg);
+            }
+        }
+    }
+    
+}

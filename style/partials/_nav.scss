@@ -1,0 +1,74 @@
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 50px;
+    // Makes the navbar always visible when scrolling
+    position: sticky;
+    top: 0;
+    background-color: $white-color;
+    z-index: 99;
+
+    a {
+        width: 1.5em;
+        height: 1.5em;
+
+        .logo-img {
+            width: 100%;
+        }
+    }
+
+    .menu-icon {
+        color: black;
+        width: 1.5em;
+        height: 1.5em;
+        line-height: 1.5em;
+        margin-right: -5px;
+    }
+
+    nav {
+        position: absolute;
+        top: 50px; // move 50px from the top (which is the height of the navbar)
+        left: 0;
+        width: 100%;
+        background-color: $navbar-blue;
+        display: flex;
+        align-items: center;
+        
+        max-height: 0; // start hidden
+        overflow: hidden;
+
+        ul {
+            padding: 15px;
+
+            li {
+                list-style-type: none;
+                padding-bottom: 15px;
+
+                a {
+                    color: $white-color;
+                    font-family: "IBM Plex Mono", monospace;
+                    font-size: 1em;
+                    letter-spacing: 0;
+                    line-height: 1.75em;
+                    text-decoration: none;
+
+                    &:hover, &:focus {
+                        color: $letter-color-green;
+                        text-decoration: line-through;
+                    }
+                }  
+            }
+        }
+    }
+
+    #checkbox {
+        display: none;
+
+        &:checked ~ nav {
+            max-height: 200px; // show the navbar items from 0px -> 200px with a transition
+            transition: all 0.5s;
+        }
+    }
+}
