@@ -1,0 +1,274 @@
+main {
+    // -------------------- START PODCAST SECTION --------------------
+    .podcast-section {
+        height: 1203.5px;
+        overflow: hidden;
+
+        .podcast-bg-top {
+            background-image: linear-gradient(-90deg, #0000FF 0%, #0000A3 100%);
+            background-size: cover;
+            height: 85%;
+
+            // Skew the background
+            @include skew-Y (-5deg);
+            transform-origin: top right; // Change the transformation origin so it starts from the top right
+
+            h2 {
+                font-family: "IBM Plex Sans", sans-serif;
+                font-weight: 400;
+                font-size: 2.25em;
+                color: $white-color;
+                letter-spacing: 0;
+                line-height: 2.625em;
+                margin-left: 15px;
+                position: relative;
+                top: 15px;
+
+                // Unskew the h2
+                @include skew-Y (5deg);
+            }
+
+            .embed-container {
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-content: center;
+                margin-left: 15px;
+                margin-right: 15px;
+
+                // Unskew the embed container
+                @include skew-Y (5deg);
+
+                .embed-column {
+                    flex: 100%;
+                    max-width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 225px;
+                        border-radius: 10px;
+                        margin-top: 15px;
+                        position: relative; // necesary for the z-index
+                        z-index: 10;
+                    }
+    
+                    .embed-full {
+                        display: none;
+                    }
+                }
+                
+            } 
+        } 
+
+        .podcast-bg-bot {
+            height: 15%;
+            background-image: linear-gradient(-90deg, #0000FF 0%, #0000A3 100%);
+            background-size: cover;
+            overflow: visible;
+            position: relative; // necesary for the z-index
+            z-index: -1;
+            
+            // Skew the background
+            @include skew-Y (-5deg);
+            transform-origin: bottom left; // Change the transformation origin so it starts from the bottom left
+        }
+    } // -------------------- END PODCAST SECTION --------------------
+    
+    // -------------------- START US SECTION --------------------
+    .us-section {
+
+        .us-container {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-content: center;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: -40px; // because the mobile photo is moved to overflow the top
+
+            .phone-img-column {
+                flex: 100%;
+                max-width: 100%;
+                position: relative;
+                top: -80px; // move mobile photo to overflow the top
+                z-index: 10;
+                display: flex;
+                justify-content: center;
+            
+                img {
+                    height: 519px;
+                    width: 100%;
+                    max-width: 360px;
+                }
+            }
+
+            .us-column {
+                flex: 100%;
+                max-width: 100%;
+                position: relative;
+                top: -80px;
+
+                h2 {
+                    font-family: "IBM Plex Sans", sans-serif;
+                    font-size: 2.25em;
+                    font-weight: 400;
+                    color: $main-letter-color;
+                    letter-spacing: 0;
+                    //line-height: 2.625em;
+                    margin-bottom: 15px;
+                    margin-top: 15px;
+                }
+
+                p {
+                    font-family: "IBM Plex Mono", monospace;
+                    font-size: 0.875em;
+                    color: $main-letter-color;
+                    letter-spacing: 0;
+                    line-height: 1.375em;
+                }
+            }        
+        } 
+    } // -------------------- END US SECTION --------------------
+
+    // -------------------- START PHOTOS SECTION --------------------
+    .photos-section {
+
+        h2 {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 2.25em;
+            font-weight: 400;
+            color: $main-letter-color;
+            letter-spacing: 0;
+            // line-height: 2.625em;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+
+        .photos-container {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 100%;
+                max-height: 364px;
+            }
+        }
+    } // -------------------- END PHOTOS SECTION --------------------
+
+    // -------------------- START TOPICS SECTION --------------------
+    .topics-section {
+
+        h2 {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 2.25em;
+            font-weight: 400;
+            color: $main-letter-color;
+            letter-spacing: 0;
+            // line-height: 2.625em;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .topics-container {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-content: center;
+
+            figure {
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 30px;
+
+                img {
+                    max-width: 104px;
+                    height: auto;
+                    margin-bottom: 15px;
+                }
+
+                figcaption {
+                    font-family: "IBM Plex Sans", sans-serif;
+                    font-size: 1.5em;
+                    font-weight: 600;
+                    color: $main-letter-color;
+                    letter-spacing: 0;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    text-align: center;
+                    max-width: 250px;
+                    height: 62.4px;
+                }
+
+                &:nth-child(2) {
+                    margin-bottom: 50px; // move a little more the 2nd figure because it takes 2 lines
+                }
+            }
+        }
+    } // -------------------- END TOPICS SECTION --------------------
+
+    // -------------------- START NEWS SECTION --------------------
+    .news-section {
+        height: 341px;
+        overflow: hidden;
+
+        .news-bg {
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            background-size: cover;
+            height: 100%;
+
+            // Skew the background
+            @include skew-Y (-5deg);
+            transform-origin: top right; // Change the transformation origin so it starts from the top right
+
+            .news-container {
+                padding-left: 15px;
+                padding-right: 15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                position: relative;
+                top: 50px;
+                height: 80%;
+
+                // Unskew the container
+                @include skew-Y (5deg);
+
+                h2 {
+                    font-family: "IBM Plex Sans", sans-serif;
+                    font-weight: 400;
+                    font-size: 2.25em;
+                    color: $white-color;
+                    letter-spacing: 0;
+                    //line-height: 2.625em;
+                    text-align: center;
+                }
+    
+                button {
+                    width: 100%;
+                    height: 48px;
+                    margin-right: 15px;
+                    margin-top: 30px;
+                    background-color: $button-bg;
+                    color: $main-letter-color;
+                    font-size: 1em;
+                    font-family: "IBM Plex Mono", monospace;
+                    font-weight: 500;
+                    text-align: center;
+                    line-height: 1.375em;
+            
+                    &:hover {
+                        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                        color: $white-color;
+                        cursor: pointer;
+                    }
+                }
+            }   
+        }   
+    } // -------------------- END NEWS SECTION --------------------
+}

@@ -1,0 +1,8 @@
+// Skew the blue background in Y axis
+@mixin skew-Y ($degrees) {
+    transform: skewY($degrees);
+    -ms-transform: skewY($degrees);
+    -webkit-transform: skewY($degrees);
+    -o-transform: skewY($degrees);
+    -moz-transform: skewY($degrees);
+}
