@@ -15,8 +15,15 @@
             }
         }
 
-        .menu-icon {
-            display: none;
+        label {
+            
+            .bars {
+                display: none;
+            }
+
+            .cross {
+                display: none;
+            }
         }
 
         nav {

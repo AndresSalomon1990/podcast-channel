@@ -11,4 +11,21 @@ html {
 
 body {
     background-color: $white-color;
+
+    &::-webkit-scrollbar {
+        width: 0.5em;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: $navbar-blue;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $white-color;
+        border-radius: 4px;
+
+        &:active {
+            background-color: $letter-color-green;
+        }
+    }
 }
