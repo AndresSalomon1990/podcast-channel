@@ -43,8 +43,8 @@
             transform: scale(0.65);
 
             .bar1 {
-                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-                transform: rotate(-45deg) translate(-9px, 6px);
+                -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+                transform: rotate(-45deg) translate(-8px, 8px);
             }
 
             .bar2 {opacity: 0;}
@@ -55,32 +55,6 @@
             }
         }
     }
-
-    
-      
-      
-      
-      .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px);
-      }
-      
-      .change .bar2 {opacity: 0;}
-      
-      .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-    }
-
-    // .menu-icon {
-    //     color: black;
-    //     width: 1.5em;
-    //     height: 1.5em;
-    //     line-height: 1.5em;
-    //     margin-right: -5px;
-
-    //     cursor: pointer;
-    // }
 
     nav {
         position: absolute;

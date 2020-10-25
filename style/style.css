@@ -71,8 +71,8 @@ body {
     transform: scale(0.65); }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000345}}
     .menu-wrap label .cross .bar1 {
-      -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-      transform: rotate(-45deg) translate(-9px, 6px); }
+      -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+      transform: rotate(-45deg) translate(-8px, 8px); }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000350}}
     .menu-wrap label .cross .bar2 {
       opacity: 0; }
@@ -80,18 +80,7 @@ body {
     .menu-wrap label .cross .bar3 {
       -webkit-transform: rotate(45deg) translate(-8px, -8px);
       transform: rotate(45deg) translate(-8px, -8px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000363}}
-  .menu-wrap .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000368}}
-  .menu-wrap .change .bar2 {
-    opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000370}}
-  .menu-wrap .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000359}}
   .menu-wrap nav {
     position: absolute;
     top: 50px;
@@ -102,14 +91,14 @@ body {
     align-items: center;
     max-height: 0;
     overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000371}}
     .menu-wrap nav ul {
       padding: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000374}}
       .menu-wrap nav ul li {
         list-style-type: none;
         padding-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000378}}
         .menu-wrap nav ul li a {
           color: #FFFFFF;
           font-family: "IBM Plex Mono", monospace;
@@ -117,14 +106,14 @@ body {
           letter-spacing: 0;
           line-height: 1.75em;
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000386}}
           .menu-wrap nav ul li a:hover, .menu-wrap nav ul li a:focus {
             color: #00F3BB;
             text-decoration: line-through; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000395}}
   .menu-wrap #checkbox {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_nav\.scss}line{font-family:\0000398}}
     .menu-wrap #checkbox:checked ~ nav {
       max-height: 200px;
       transition: all 0.5s; }
