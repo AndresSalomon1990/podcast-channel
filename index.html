@@ -11,39 +11,40 @@
 </head>
 <body>
     
-    <!-------------------- START TOP NAVBAR -------------------->
-    <div class="menu-wrap">
-        <a href="#">
-            <img src="./res/logo.svg" class="logo-img" alt="Brand logo">
-        </a>
-        <input type="checkbox" id="checkbox"> <!-- Checkbox hack -->
-        <nav>
-            <ul>
-                <li><a href="#episodes">EPISODIOS</a></li>
-                <li><a href="#us">NOSOTROS</a></li>
-                <li><a href="#interviews">ENTREVISTAS</a></li>
-                <li><a href="#topics">TÓPICOS</a></li>
-            </ul>
-        </nav>
-        <label for="checkbox"> <!-- Checkbox hack -->
-            <div class="bars" onclick="this.classList.toggle('cross')">
+    <!-- START HEADER -->
+    <header>
+
+        <div class="topnav-container">
+            <a href="#">
+                <img src="./res/logo.svg" class="logo-img" alt="Brand logo">
+            </a>
+            
+            <nav>
+                <input type="checkbox" id="checkbox"> <!-- checkbox hack -->
+
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
-            </div>
-        </label>
-    </div> 
-    <!-------------------- END TOP NAVBAR -------------------->
-    
-    <!-------------------- START HEADER -------------------->
-    <header>
-        <h1>Hello <span>world</span> pale blue dot.</h1>
-        <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
-        <button type="button">CONOCÉ MÁS</button>
-    </header> 
-    <!-------------------- END HEADER -------------------->
 
-    <!-------------------- START MAIN -------------------->
+                <ul>
+                    <li><a href="#episodes">EPISODIOS</a></li>
+                    <li><a href="#us">NOSOTROS</a></li>
+                    <li><a href="#interviews">ENTREVISTAS</a></li>
+                    <li><a href="#topics">TÓPICOS</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="main-title-container">
+            <h1>Hello <span>world</span> pale blue dot.</h1>
+            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button type="button">CONOCÉ MÁS</button>
+        </div>
+
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN -->
     <main>
 
         <section id="episodes" class="podcast-section">
@@ -65,7 +66,7 @@
                 </div>
             </div>
             <div class="podcast-bg-bot">
-                <!-- Only for the bottom skew-->
+                <!-- Only for the bottom skew -->
             </div>
         </section>
 
@@ -129,9 +130,9 @@
         </section>
 
     </main> 
-    <!-------------------- END MAIN -------------------->
+    <!-- END MAIN -->
     
-    <!-------------------- START FOOTER -------------------->
+    <!-- START FOOTER -->
     <footer>
         <div class="footer-title-container">
             <h3>&copy; 2020 - Hello blue pale dot</h3>
@@ -144,7 +145,7 @@
             <a href="https://web.telegram.org/" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a>
         </div>
     </footer> 
-    <!-------------------- END FOOTER -------------------->
+    <!-- END FOOTER -->
 
 </body>
 </html>

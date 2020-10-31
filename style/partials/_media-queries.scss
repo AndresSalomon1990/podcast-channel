@@ -1,73 +1,72 @@
 @media screen and (min-width: 980px) {
 
-    // -------------------- START TOP NAVBAR --------------------
-    .menu-wrap {
-        padding-left: 100px;
-        padding-right: 100px;
-        margin-top: 15px;
+    // -------------------- START HEADER --------------------
+    header {
 
-        a {
-            width: 2.30em;
-            height: 2.30em;
-    
-            .logo-img {
-                width: 100%;
-            }
-        }
+        .topnav-container {
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-top: 15px;
 
-        label {
-            
-            .bars {
-                display: none;
+            a {
+                width: 2.30em;
+                height: 2.30em;
+        
+                .logo-img {
+                    width: 100%;
+                }
             }
 
-            .cross {
-                display: none;
-            }
-        }
+            nav {
 
-        nav {
-            position: relative; // position the nav
-            top: 10px;
-            max-height: 50px;
-            background-color: transparent;
-            display: flex;
-            justify-content: flex-end;
+                input {
+                    display: none;
+                }
 
-            ul {
-                display: inline-flex;
-                
-                li {
+                .bar1, .bar2, .bar3 {
+                    display: none;
+                }
 
-                    a {
-                        color: $main-letter-color;
-                        padding-left: 30px;
+                ul {
+                    position: relative; // position the nav
+                    top: -5px;
+                    max-height: 50px;
+                    background-color: transparent;
+                    display: flex;
+                    justify-content: flex-end;
+                    flex-direction: row;
+
+                    li {
+
+                        a {
+                            color: $main-letter-color;
+                            padding-left: 30px;
+                        }
                     }
                 }
             }
         }
-    } // -------------------- END TOP NAVBAR --------------------
 
-    // -------------------- START HEADER --------------------
-    header {
-        margin-left: 200px;
-        padding-top: 100px;
+        .main-title-container {
+            margin-left: 200px;
+            padding-top: 100px;
 
-        h1 {
-            max-width: 100%;
-            font-size: 4em;
-        }
+            h1 {
+                max-width: 100%;
+                font-size: 4em;
+            }
 
-        p {
-            max-width: 628px;
-            height: 48px;
-            font-size: 1em;
-            font-weight: 500;
-        }
+            p {
+                max-width: 628px;
+                height: 48px;
+                font-size: 1em;
+                font-weight: 500;
+            }
 
-        button {
-            width: 226px;
-            height: 56px;
+            button {
+                width: 226px;
+                height: 56px;
+            }
         }
     } // -------------------- END HEADER --------------------
 

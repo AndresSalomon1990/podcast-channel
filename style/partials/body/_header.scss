@@ -1,48 +1,152 @@
 header {
-    padding: 15px;
-    margin-bottom: 20px;
 
-    h1 {
-        font-family: "IBM Plex Sans", sans-serif;
-        font-size: 2.25em;
-        font-weight: 400;
-        color: $main-letter-color;
-        letter-spacing: 0;
-        //line-height: 2.625em;  // not useful with a line break
-        max-width: 230px;
+    .topnav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        height: 50px;
+        // Makes the navbar always visible when scrolling
+        position: sticky;
+        top: 0;
+        background-color: $white-color;
+        z-index: 99;
 
-        span {
-            text-decoration: line-through;
+        a {
+            width: 1.5em;
+            height: 1.5em;
+
+            .logo-img {
+                width: 100%;
+            }
+        }
+
+        nav {
+
+            input {
+                position: absolute;
+                width: 30px;
+                height: 25px;
+                opacity: 0;
+                cursor: pointer;
+                z-index: 50;
+
+                &:checked ~ div {
+                    &:first-of-type {
+                        -webkit-transform: rotate(-45deg) translate(-4.5px, 4.5px);
+                        transform: rotate(-45deg) translate(-4.5px, 4.5px);
+                    }
+
+                    &:nth-of-type(2) {
+                        opacity: 0;
+                    }
+
+                    &:nth-of-type(3) {
+                        -webkit-transform: rotate(45deg) translate(-4.5px, -4.5px);
+                        transform: rotate(45deg) translate(-4.5px, -4.5px);
+                    }
+                }
+
+                // checkbox hack
+                &:checked ~ ul {
+                    max-height: 200px; // show the navbar items from 0px -> 200px with a transition
+                    transition: all 0.5s;
+                }
+            }
+            
+            .bar1, .bar2, .bar3 {
+                width: 25px;
+                height: 2.5px;
+                background-color: black;
+                margin: 4px 0;
+                transition: 0.4s;
+            }
+
+            ul {                
+                position: absolute;
+                top: 50px; // move 50px from the top (which is the height of the navbar)
+                left: 0;
+                width: 100%;
+                background-color: $navbar-blue;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-left: 15px;
+                
+                max-height: 0; // start hidden
+                overflow: hidden;
+
+                li {
+                    list-style-type: none;
+                    padding-top: 15px;
+
+                    &:last-of-type {
+                        padding-bottom: 15px;
+                    }
+
+                    a {
+                        color: $white-color;
+                        font-family: "IBM Plex Mono", monospace;
+                        font-size: 1em;
+                        letter-spacing: 0;
+                        line-height: 1.75em;
+                        text-decoration: none;
+
+                        &:hover, &:focus {
+                            color: $letter-color-green;
+                            text-decoration: line-through;
+                        }
+                    }  
+                }
+            }
         }
     }
 
-    p {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 0.875em;
-        color: $main-letter-color;
-        letter-spacing: 0;
-        line-height: 1.375em;
-        margin-top: 15px;
-        max-width: 350px;
-    }
+    .main-title-container {
+        padding: 15px;
+        margin-bottom: 20px;
 
-    button {
-        width: 100%;
-        height: 48px;
-        margin-top: 30px;
-        background-color: $button-bg;
-        color: $main-letter-color;
-        font-size: 1em;
-        font-family: "IBM Plex Mono", monospace;
-        font-weight: 500;
-        text-align: center;
-        line-height: 1.375em;
+        h1 {
+            font-family: "IBM Plex Sans", sans-serif;
+            font-size: 2.25em;
+            font-weight: 400;
+            color: $main-letter-color;
+            letter-spacing: 0;
+            //line-height: 2.625em;  // not useful with a line break
+            max-width: 230px;
 
-        &:hover {
-            background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-            color: $white-color;
-            cursor: pointer;
+            span {
+                text-decoration: line-through;
+            }
         }
-    }
-    
+
+        p {
+            font-family: "IBM Plex Mono", monospace;
+            font-size: 0.875em;
+            color: $main-letter-color;
+            letter-spacing: 0;
+            line-height: 1.375em;
+            margin-top: 15px;
+            max-width: 350px;
+        }
+
+        button {
+            width: 100%;
+            height: 48px;
+            margin-top: 30px;
+            background-color: $button-bg;
+            color: $main-letter-color;
+            font-size: 1em;
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 500;
+            text-align: center;
+            line-height: 1.375em;
+
+            &:hover {
+                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                color: $white-color;
+                cursor: pointer;
+            }
+        }
+    }  
 }
