@@ -6,11 +6,7 @@ header {
         align-items: center;
         padding: 15px;
         height: 50px;
-        // Makes the navbar always visible when scrolling
-        position: sticky;
-        top: 0;
         background-color: $white-color;
-        z-index: 99;
 
         a {
             width: 1.5em;
