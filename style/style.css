@@ -156,7 +156,8 @@ header .main-title-container {
 /* ---------- Main ---------- */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000033}}
 main .podcast-section {
-  height: 1203.5px; }
+  height: 1203.5px;
+  overflow: hidden; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000037}}
   main .podcast-section .podcast-bg-top {
     background-image: linear-gradient(-90deg, #0000FF 0%, #0000A3 100%);
