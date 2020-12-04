@@ -7,6 +7,9 @@ header {
         padding: 15px;
         height: 50px;
         background-color: $white-color;
+        width: 100%;
+        position: fixed;
+        z-index: 99;
 
         a {
             width: 1.5em;
@@ -99,7 +102,10 @@ header {
     }
 
     .main-title-container {
-        padding: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 70px;
         margin-bottom: 20px;
 
         h1 {
