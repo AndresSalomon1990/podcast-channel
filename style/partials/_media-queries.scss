@@ -52,13 +52,27 @@
             h1 {
                 max-width: 100%;
                 font-size: 4em;
+
+                .dot-blue {
+                    color: $navbar-blue;
+                }
             }
 
-            p {
+            .paragraph-desktop {
                 max-width: 628px;
                 height: 48px;
                 font-size: 1em;
                 font-weight: 500;
+                font-family: "IBM Plex Mono", monospace;
+                color: $main-letter-color;
+                letter-spacing: 0;
+                line-height: 1.375em;
+                margin-top: 15px;
+                display: block;
+            }
+
+            .paragraph-mobile {
+                display: none;
             }
 
             button {
@@ -94,17 +108,9 @@
                         padding-left: 30px;
                         padding-right: 30px;
 
-                        img {
+                        iframe {
                             height: 232px;
                             margin-top: 45px;
-                        }
-    
-                        .embed-mobile {
-                            display: none; // hide the mobile images
-                        }
-    
-                        .embed-full {
-                            display: inline-flex; // show the full images
                         }
                     }
                 }
@@ -188,14 +194,13 @@
                 align-content: center;
     
                 figure {
+                    flex-basis: 270px;
 
                     img {
                         margin-bottom: 15px;
                     }
     
                     figcaption {
-                        margin-left: 15px;
-                        margin-right: 15px;
                         max-width: 200px;
                     }
 

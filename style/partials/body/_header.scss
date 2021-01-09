@@ -114,15 +114,14 @@ header {
             font-weight: 400;
             color: $main-letter-color;
             letter-spacing: 0;
-            //line-height: 2.625em;  // not useful with a line break
             max-width: 230px;
 
-            span {
+            .world-crossed {
                 text-decoration: line-through;
             }
         }
 
-        p {
+        .paragraph-mobile {
             font-family: "IBM Plex Mono", monospace;
             font-size: 0.875em;
             color: $main-letter-color;
@@ -130,6 +129,10 @@ header {
             line-height: 1.375em;
             margin-top: 15px;
             max-width: 350px;
+        }
+
+        .paragraph-desktop {
+            display: none;
         }
 
         button {

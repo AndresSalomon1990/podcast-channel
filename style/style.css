@@ -5,36 +5,36 @@
 /* ---------- Colors ---------- */
 /* ---------- Variables ---------- */
 /* ---------- Global and Body ---------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\000031}}
 html {
   scroll-behavior: smooth; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\000036}}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000313}}
 body {
   background-color: #FFFFFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000316}}
   body::-webkit-scrollbar {
     width: 0.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000320}}
   body::-webkit-scrollbar-track {
     background-color: #0000EC; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000324}}
   body::-webkit-scrollbar-thumb {
     background-color: #FFFFFF;
     border-radius: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_global\.scss}line{font-family:\0000328}}
     body::-webkit-scrollbar-thumb:active {
       background-color: #00F3BB; }
 
 /* ---------- Header ---------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\000033}}
 header .topnav-container {
   display: flex;
   justify-content: space-between;
@@ -45,14 +45,14 @@ header .topnav-container {
   width: 100%;
   position: fixed;
   z-index: 99; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000314}}
   header .topnav-container a {
     width: 1.5em;
     height: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000318}}
     header .topnav-container a .logo-img {
       width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000325}}
   header .topnav-container nav input {
     position: absolute;
     width: 30px;
@@ -60,29 +60,29 @@ header .topnav-container {
     opacity: 0;
     cursor: pointer;
     z-index: 50; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000334}}
     header .topnav-container nav input:checked ~ div:first-of-type {
       -webkit-transform: rotate(-45deg) translate(-4.5px, 4.5px);
       transform: rotate(-45deg) translate(-4.5px, 4.5px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000339}}
     header .topnav-container nav input:checked ~ div:nth-of-type(2) {
       opacity: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000343}}
     header .topnav-container nav input:checked ~ div:nth-of-type(3) {
       -webkit-transform: rotate(45deg) translate(-4.5px, -4.5px);
       transform: rotate(45deg) translate(-4.5px, -4.5px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000350}}
     header .topnav-container nav input:checked ~ ul {
       max-height: 200px;
       transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000356}}
   header .topnav-container nav .bar1, header .topnav-container nav .bar2, header .topnav-container nav .bar3 {
     width: 25px;
     height: 2.5px;
     background-color: black;
     margin: 4px 0;
     transition: 0.4s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000364}}
   header .topnav-container nav ul {
     position: absolute;
     top: 50px;
@@ -95,14 +95,14 @@ header .topnav-container {
     padding-left: 15px;
     max-height: 0;
     overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000378}}
     header .topnav-container nav ul li {
       list-style-type: none;
       padding-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000382}}
       header .topnav-container nav ul li:last-of-type {
         padding-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000386}}
       header .topnav-container nav ul li a {
         color: #FFFFFF;
         font-family: "IBM Plex Mono", monospace;
@@ -110,18 +110,18 @@ header .topnav-container {
         letter-spacing: 0;
         line-height: 1.75em;
         text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\0000394}}
         header .topnav-container nav ul li a:hover, header .topnav-container nav ul li a:focus {
           color: #00F3BB;
           text-decoration: line-through; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003104}}
 header .main-title-container {
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 70px;
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003111}}
   header .main-title-container h1 {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 2.25em;
@@ -129,11 +129,11 @@ header .main-title-container {
     color: #060A24;
     letter-spacing: 0;
     max-width: 230px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003120}}
-    header .main-title-container h1 span {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003119}}
+    header .main-title-container h1 .world-crossed {
       text-decoration: line-through; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003125}}
-  header .main-title-container p {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003124}}
+  header .main-title-container .paragraph-mobile {
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.875em;
     color: #060A24;
@@ -141,7 +141,10 @@ header .main-title-container {
     line-height: 1.375em;
     margin-top: 15px;
     max-width: 350px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003134}}
+  header .main-title-container .paragraph-desktop {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003138}}
   header .main-title-container button {
     width: 100%;
     height: 48px;
@@ -153,18 +156,19 @@ header .main-title-container {
     font-weight: 500;
     text-align: center;
     line-height: 1.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_header\.scss}line{font-family:\00003150}}
     header .main-title-container button:hover {
       background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
       color: #FFFFFF;
       cursor: pointer; }
 
 /* ---------- Main ---------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000033}}
 main .podcast-section {
-  height: 1203.5px;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000037}}
+  height: 900px;
+  overflow: hidden;
+  scroll-margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\000038}}
   main .podcast-section .podcast-bg-top {
     background-image: linear-gradient(-90deg, #0000FF 0%, #0000A3 100%);
     background-size: cover;
@@ -175,7 +179,7 @@ main .podcast-section {
     -o-transform: skewY(-5deg);
     -moz-transform: skewY(-5deg);
     transform-origin: top right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000317}}
     main .podcast-section .podcast-bg-top h2 {
       font-family: "IBM Plex Sans", sans-serif;
       font-weight: 400;
@@ -184,6 +188,7 @@ main .podcast-section {
       letter-spacing: 0;
       line-height: 2.625em;
       margin-left: 15px;
+      margin-bottom: 15px;
       position: relative;
       top: 15px;
       transform: skewY(5deg);
@@ -191,7 +196,7 @@ main .podcast-section {
       -webkit-transform: skewY(5deg);
       -o-transform: skewY(5deg);
       -moz-transform: skewY(5deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000333}}
     main .podcast-section .podcast-bg-top .embed-container {
       display: flex;
       flex-flow: column wrap;
@@ -204,22 +209,18 @@ main .podcast-section {
       -webkit-transform: skewY(5deg);
       -o-transform: skewY(5deg);
       -moz-transform: skewY(5deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000344}}
       main .podcast-section .podcast-bg-top .embed-container .embed-column {
         flex: 100%;
         max-width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000346}}
-        main .podcast-section .podcast-bg-top .embed-container .embed-column img {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000348}}
+        main .podcast-section .podcast-bg-top .embed-container .embed-column iframe {
           width: 100%;
-          height: 225px;
+          height: 162px;
           border-radius: 10px;
-          margin-top: 15px;
           position: relative;
           z-index: 10; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000355}}
-        main .podcast-section .podcast-bg-top .embed-container .embed-column .embed-full {
-          display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000359}}
   main .podcast-section .podcast-bg-bot {
     height: 15%;
     background-image: linear-gradient(-90deg, #0000FF 0%, #0000A3 100%);
@@ -233,118 +234,128 @@ main .podcast-section {
     -o-transform: skewY(-5deg);
     -moz-transform: skewY(-5deg);
     transform-origin: bottom left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000380}}
-main .us-section .us-container {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: -40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000389}}
-  main .us-section .us-container .phone-img-column {
-    flex: 100%;
-    max-width: 100%;
-    position: relative;
-    top: -80px;
-    z-index: 10;
-    display: flex;
-    justify-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000398}}
-    main .us-section .us-container .phone-img-column img {
-      height: 519px;
-      width: 100%;
-      max-width: 360px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003105}}
-  main .us-section .us-container .us-column {
-    flex: 100%;
-    max-width: 100%;
-    position: relative;
-    top: -80px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003111}}
-    main .us-section .us-container .us-column h2 {
-      font-family: "IBM Plex Sans", sans-serif;
-      font-size: 2.25em;
-      font-weight: 400;
-      color: #060A24;
-      letter-spacing: 0;
-      margin-bottom: 15px;
-      margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003122}}
-    main .us-section .us-container .us-column p {
-      font-family: "IBM Plex Mono", monospace;
-      font-size: 0.875em;
-      color: #060A24;
-      letter-spacing: 0;
-      line-height: 1.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003136}}
-main .photos-section h2 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2.25em;
-  font-weight: 400;
-  color: #060A24;
-  letter-spacing: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003148}}
-main .photos-section .photos-container {
-  display: flex;
-  flex-direction: column; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003152}}
-  main .photos-section .photos-container img {
-    width: 100%;
-    max-height: 364px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003162}}
-main .topics-section h2 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 2.25em;
-  font-weight: 400;
-  color: #060A24;
-  letter-spacing: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 30px;
-  margin-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003175}}
-main .topics-section .topics-container {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003181}}
-  main .topics-section .topics-container figure {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000374}}
+main .us-section {
+  scroll-margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000377}}
+  main .us-section .us-container {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-items: center;
-    margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003188}}
-    main .topics-section .topics-container figure img {
-      max-width: 104px;
-      height: auto;
-      margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003194}}
-    main .topics-section .topics-container figure figcaption {
-      font-family: "IBM Plex Sans", sans-serif;
-      font-size: 1.5em;
-      font-weight: 600;
-      color: #060A24;
-      letter-spacing: 0;
-      margin-left: 15px;
-      margin-right: 15px;
-      text-align: center;
-      max-width: 250px;
-      height: 62.4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003207}}
-    main .topics-section .topics-container figure:nth-child(2) {
-      margin-bottom: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003215}}
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: -40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000386}}
+    main .us-section .us-container .phone-img-column {
+      flex: 100%;
+      max-width: 100%;
+      position: relative;
+      top: -80px;
+      z-index: 10;
+      display: flex;
+      justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\0000395}}
+      main .us-section .us-container .phone-img-column img {
+        height: 519px;
+        width: 100%;
+        max-width: 360px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003102}}
+    main .us-section .us-container .us-column {
+      flex: 100%;
+      max-width: 100%;
+      position: relative;
+      top: -80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003108}}
+      main .us-section .us-container .us-column h2 {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 2.25em;
+        font-weight: 400;
+        color: #060A24;
+        letter-spacing: 0;
+        margin-bottom: 15px;
+        margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003118}}
+      main .us-section .us-container .us-column p {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.875em;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 1.375em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003130}}
+main .photos-section {
+  scroll-margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003133}}
+  main .photos-section h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003144}}
+  main .photos-section .photos-container {
+    display: flex;
+    flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003148}}
+    main .photos-section .photos-container img {
+      width: 100%;
+      max-height: 364px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003156}}
+main .topics-section {
+  scroll-margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003159}}
+  main .topics-section h2 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2.25em;
+    font-weight: 400;
+    color: #060A24;
+    letter-spacing: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003171}}
+  main .topics-section .topics-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003177}}
+    main .topics-section .topics-container figure {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003184}}
+      main .topics-section .topics-container figure img {
+        max-width: 104px;
+        height: auto;
+        margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003190}}
+      main .topics-section .topics-container figure figcaption {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #060A24;
+        letter-spacing: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+        max-width: 250px;
+        height: 62.4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003203}}
+      main .topics-section .topics-container figure:nth-child(2) {
+        margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003211}}
 main .news-section {
   height: 341px;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003219}}
+  overflow: hidden;
+  scroll-margin-top: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003216}}
   main .news-section .news-bg {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     background-size: cover;
@@ -355,7 +366,7 @@ main .news-section {
     -o-transform: skewY(-5deg);
     -moz-transform: skewY(-5deg);
     transform-origin: top right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003225}}
     main .news-section .news-bg .news-container {
       padding-left: 15px;
       padding-right: 15px;
@@ -371,7 +382,7 @@ main .news-section {
       -webkit-transform: skewY(5deg);
       -o-transform: skewY(5deg);
       -moz-transform: skewY(5deg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003239}}
       main .news-section .news-bg .news-container h2 {
         font-family: "IBM Plex Sans", sans-serif;
         font-weight: 400;
@@ -379,7 +390,7 @@ main .news-section {
         color: #FFFFFF;
         letter-spacing: 0;
         text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003248}}
       main .news-section .news-bg .news-container button {
         width: 100%;
         height: 48px;
@@ -392,26 +403,26 @@ main .news-section {
         font-weight: 500;
         text-align: center;
         line-height: 1.375em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_main\.scss}line{font-family:\00003261}}
         main .news-section .news-bg .news-container button:hover {
           background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
           color: #FFFFFF;
           cursor: pointer; }
 
 /* ---------- Footer ---------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\000031}}
 footer {
   display: flex;
   flex-direction: column;
   padding: 30px;
   justify-content: center;
   align-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\000038}}
   footer .footer-title-container {
     display: flex;
     justify-content: center;
     align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000313}}
     footer .footer-title-container h3 {
       font-family: "IBM Plex Mono", monospace;
       font-size: 0.875em;
@@ -420,39 +431,39 @@ footer {
       letter-spacing: 0;
       line-height: 22px;
       text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000324}}
   footer .footer-social-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000331}}
     footer .footer-social-container a {
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/body\/_footer\.scss}line{font-family:\0000334}}
       footer .footer-social-container a:hover {
         color: #00F3BB; }
 
 /* ---------- Media queries ---------- */
 @media screen and (min-width: 980px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\000036}}
   header .topnav-container {
     padding: 30px 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\000039}}
     header .topnav-container a {
       width: 2.30em;
       height: 2.30em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000313}}
       header .topnav-container a .logo-img {
         width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000320}}
     header .topnav-container nav input {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000324}}
     header .topnav-container nav .bar1, header .topnav-container nav .bar2, header .topnav-container nav .bar3 {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000328}}
     header .topnav-container nav ul {
       position: relative;
       top: -5px;
@@ -461,64 +472,70 @@ footer {
       display: flex;
       justify-content: flex-end;
       flex-direction: row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000339}}
       header .topnav-container nav ul li a {
         color: #060A24;
         padding-left: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000348}}
   header .main-title-container {
     margin-left: 200px;
     padding-top: 150px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000352}}
     header .main-title-container h1 {
       max-width: 100%;
       font-size: 4em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000357}}
-    header .main-title-container p {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000356}}
+      header .main-title-container h1 .dot-blue {
+        color: #0000EC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000361}}
+    header .main-title-container .paragraph-desktop {
       max-width: 628px;
       height: 48px;
       font-size: 1em;
-      font-weight: 500; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000364}}
+      font-weight: 500;
+      font-family: "IBM Plex Mono", monospace;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 1.375em;
+      margin-top: 15px;
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000374}}
+    header .main-title-container .paragraph-mobile {
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000378}}
     header .main-title-container button {
       width: 226px;
       height: 56px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000389}}
   main .podcast-section {
     height: 1042.6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000394}}
     main .podcast-section .podcast-bg-top h2 {
       padding-top: 50px;
       margin-left: 215px;
       font-size: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003100}}
     main .podcast-section .podcast-bg-top .embed-container {
       flex-flow: row wrap;
       padding-right: 30px;
       padding-left: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003105}}
       main .podcast-section .podcast-bg-top .embed-container .embed-column {
         flex: 50%;
         max-width: 50%;
         padding-left: 30px;
         padding-right: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\0000397}}
-        main .podcast-section .podcast-bg-top .embed-container .embed-column img {
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003111}}
+        main .podcast-section .podcast-bg-top .embed-container .embed-column iframe {
           height: 232px;
           margin-top: 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003102}}
-        main .podcast-section .podcast-bg-top .embed-container .embed-column .embed-mobile {
-          display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003106}}
-        main .podcast-section .podcast-bg-top .embed-container .embed-column .embed-full {
-          display: inline-flex; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003123}}
   main .us-section .us-container {
     flex-flow: row wrap;
     justify-content: space-evenly;
     margin-bottom: -120px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003128}}
     main .us-section .us-container .phone-img-column {
       flex: 30%;
       max-width: 30%;
@@ -527,84 +544,85 @@ footer {
       position: relative;
       top: -150px;
       left: 70px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003137}}
       main .us-section .us-container .phone-img-column img {
         height: 660px;
         max-width: 457.6px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003143}}
     main .us-section .us-container .us-column {
       flex: 40%;
       max-width: 40%;
       position: relative;
       top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003149}}
       main .us-section .us-container .us-column h2 {
         font-size: 3em;
         max-width: 470px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003154}}
       main .us-section .us-container .us-column p {
         font-size: 1em;
         font-weight: 500;
         max-width: 470px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003166}}
   main .photos-section h2 {
     font-size: 3em;
     margin-left: 215px;
     margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003172}}
   main .photos-section .photos-container {
     flex-direction: row;
     flex-wrap: nowrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003176}}
     main .photos-section .photos-container img {
       width: 33.33%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003185}}
   main .topics-section h2 {
     font-size: 3em;
     margin-left: 215px;
     margin-bottom: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003191}}
   main .topics-section .topics-container {
     flex-flow: row wrap;
     justify-content: center;
     align-content: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003192}}
-    main .topics-section .topics-container figure img {
-      margin-bottom: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003196}}
-    main .topics-section .topics-container figure figcaption {
-      margin-left: 15px;
-      margin-right: 15px;
-      max-width: 200px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003202}}
-    main .topics-section .topics-container figure:nth-child(2) {
-      margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003196}}
+    main .topics-section .topics-container figure {
+      flex-basis: 270px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003199}}
+      main .topics-section .topics-container figure img {
+        margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003203}}
+      main .topics-section .topics-container figure figcaption {
+        max-width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003207}}
+      main .topics-section .topics-container figure:nth-child(2) {
+        margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003215}}
   main .news-section {
     height: 518px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003220}}
     main .news-section .news-bg .news-container {
       top: 50px;
       align-items: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003224}}
       main .news-section .news-bg .news-container h2 {
         font-size: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003228}}
       main .news-section .news-bg .news-container button {
         width: 345px;
         height: 56px;
         font-size: 1.125em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003239}}
   footer {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
     padding: 30px 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003247}}
     footer .footer-title-container h3 {
       font-size: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/andre\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/OneDrive\/Documentos\/Dev\/repos\/podcast-channel\/style\/partials\/_media-queries\.scss}line{font-family:\00003252}}
     footer .footer-social-container {
       margin-top: 0px;
       justify-content: space-around;
